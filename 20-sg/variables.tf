@@ -44,7 +44,7 @@ variable "ansible_sg_tags" {
         component = "bastion"
     }
 }
-
+  
 variable "app_alb_sg_tags" {
     default = {
         component = "bastion"

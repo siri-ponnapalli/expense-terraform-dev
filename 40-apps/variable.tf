@@ -34,3 +34,10 @@ variable "frontend_tags" {
     }
   
 }
+
+variable "ansible_tags" {
+    default = {
+        component = "ansible"
+    }
+  
+}
