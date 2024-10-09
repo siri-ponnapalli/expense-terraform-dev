@@ -23,6 +23,11 @@ data "aws_ssm_parameter" "private_subnet_ids" {
   name = "/${var.project_name}/${var.environment}/Private_subnet_ids"
 }
 
+data "aws_ssm_parameter" "ansible_sg_id" {
+  name = "/${var.project_name}/${var.environment}/ansible_sg_id"
+}
+
+
 data "aws_ami" "joindevops" {
 	most_recent      = true
 	owners = ["973714476881"]
