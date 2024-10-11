@@ -41,3 +41,8 @@ variable "ansible_tags" {
     }
   
 }
+
+variable "zone_name" {
+    default = "mydevops.online"
+  
+}
