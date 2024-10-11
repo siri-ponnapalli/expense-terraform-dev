@@ -42,7 +42,7 @@ variable "ansible_tags" {
   
 }
 
-variable "zone_name" {
-    default = "mydevops.online"
+variable "zone_id" {
+    default = "Z0002129F7JN5W0O266T"
   
 }
